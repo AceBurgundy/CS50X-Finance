@@ -1,4 +1,4 @@
-# CS50-Finance
+# CS50X-Finance
 
 CS50X Web App created using flask
 
