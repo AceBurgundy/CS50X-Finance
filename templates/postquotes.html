@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quotes
+{% endblock %}
+
+{% block main %}
+<p>    Current price of {{ stock_symbol.name }} is currently {{ stock_symbol.price | usd}}     </p>q
+{% endblock %}

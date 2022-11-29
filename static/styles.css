@@ -1,0 +1,101 @@
+.font-robo {
+    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  }
+
+  .font-poppins {
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+  }
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+form {
+    border:  1px solid;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 10px rgba(0,0,0,0.06);
+}
+
+input {
+    outline: none;
+    line-height: 50px;
+    background: #fafafa;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border: none;
+}
+
+button {
+    border: none;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 50px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+    background: #446ccf;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+}
+
+
+h2 {
+    text-align: left;
+    padding-left: 2rem;
+    font-weight: 5px;
+    font-size: 3rem;
+}
+table {
+    background-color: transparent;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 3rem;
+    margin-bottom: 1rem;
+    vertical-align: middle;
+    font-size: 1.5rem;
+
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(179, 208, 255, 0.3)
+}
+
+section {
+font-size: 2rem;
+text-align: right;
+padding-right: 1.5rem;
+}
